@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: #F5F5F5;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, input, button {
+    font-family: 'Roboto', sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  button {
+    cursor: pointer;
+  }
+
+.content {
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 64px;
+    /* height: 65px;
+    max-width: 1024px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+}
+
+.content nav {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.content nav img {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #eee;
+    top: 20px;
+    left: 30px;
+    width: 135px;
+    height: 24px;
+    opacity: 1;
+}
+nav a {
+    font-weight: bold;
+    color: #999999;
+    margin-right: 15px;
+}
+aside {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #999999;
+    margin-right: 15%;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+aside button {
+    border: 0;
+    background: 0;
+    font-size: 12px;
+
+}
+
+aside button .blueMinimalButton {
+    color: #298dba;
+}
+.redMinimalButton {
+    color: #ee4d64;
+    margin-left: 5px;
+}
+
